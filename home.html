@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li> 
+        <li><a href="#contact">Contact</a></li>
+      
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+    </nav>
+  </header>
+  <section id="home" class="section home fade-in">
+  <div class="home-container">
+   
+    <div class="profile-image">
+      <img src="download (1).jpg" alt="Dhenmar Pabilonia" />
+    </div>
+
+    <div class="content">
+      <h1>Hi, I'm <span class="highlight">Dhenmar Pabilonia</span></h1>
+      <p>A passionate <strong>Web Developer & Designer</strong> crafting modern, user-friendly digital experiences.</p>
+
+      <div class="buttons">
+        <a href="#contact" class="btn primary">Get in Touch</a>
+        <a href="#about" class="btn secondary">Learn More</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <section id="about" class="section about fade-in">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          “Hello! I’m a motivated student aspiring to become a front-end developer, learning to create clean, modern, and responsive websites that turn ideas into reality.”
+        </p>
+        <p>
+          Skilled in HTML, CSS, JavaScript, and UI/UX design, I enjoy making
+          beautiful digital experiences that users love.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<section id="skills" class="section skills fade-in">
+  <h2>My Skills</h2>
+  <p>Here are some of the technologies and tools I’m currently learning and working with:</p>
+  
+  <div class="skills-container">
+    <div class="skill">
+      <h3>HTML</h3>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 95%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>CSS</h3>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 87%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>JavaScript</h3>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 75%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>React</h3>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 65%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>Git & GitHub</h3>
+      <div class="skill-bar">
+        <div class="skill-level" style="width: 78%;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="section contact fade-in">
+  <h2>Contact Me</h2>
+  <p>If you’d like to reach me, you can either contact me directly or send a message below:</p>
+
+ <section id="contact" class="section contact">
+  <div class="contact-container">
+
+    <div class="contact-info">
+      <p>
+        <img src="email.avif" alt="Email Icon" class="contact-icon" />
+        <strong>Email:</strong>
+        <a href="mailto:pabiloniadhenmar@gmail.com">pabiloniadhenmar@gmail.com</a>
+      </p>
+      <p>
+        <img src="Location_icon_from_Noun_Project.png" alt="Location Icon" class="contact-icon" />
+        <strong>Location:</strong> Brgy. Pook, Tayabas City
+      </p>
+      <p>
+        <img src="linkedin.avif" alt="LinkedIn Icon" class="contact-icon" />
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/dhenmar-pabilonia-574222391/" target="_blank">linkedin.com/in/dhenmar-pabilonia-574222391</a>
+      </p>
+    </div>
+
+    <!-- Right Side: Contact Form -->
+    <div class="contact-form-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 Dhenmar Pabilonia. All Rights Reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
